@@ -22,14 +22,13 @@ body{
 }
 /* Company Logo */
 .logo{
-    /* position: absolute; */
-    width: 90vw;
     margin-top: 2rem;
     display: flex;
+    align-items: center;
 }
 .logo-image{
     width: 5rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 .text{
     margin-left: auto;
@@ -38,41 +37,48 @@ body{
 .stay{
     font-size: 1.2rem;
     font-weight: normal;
-    line-height: 1.2rem;
+    line-height: 1rem;
     height: 1rem;
     margin-top: 1rem;
     font-family: futura;
 }
 .icons{
-    padding-top: 1.5rem;
+    margin-left: 0.5rem;
+}
+i{
+    margin-left: 0.2rem;
+    width: 2.2rem;
+    height: 1.8rem;
+    padding-top: 0.7rem;
+    background: #EBEBEB;
+    border-radius: 5px;
 }
 .icons > a{
 color: var(--secondary);
-padding: 0.5rem;
 text-align: center;
 height: 2rem;
-background: #EBEBEB;
-border-radius: 5px;
-margin-left: 0.5rem;
 }
 
 .article{
     position: absolute;
     top: 6rem;
-}
 
+}
+.article-text{
+    margin: 0 auto;
+    margin-left: 1rem;
+}
 /* Coming Soon Banner */
 .coming-soon{
     color: var(--secondary);
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: futura;
-    width: 90vw;
     height: 50px;
     margin-top: 3rem;
     line-height:3rem;
 }
 
-/* Comming soon note */
+/* Coming soon note */
 .note{
     width: 17rem;
     height: 38px;
@@ -121,7 +127,7 @@ margin-left: 0.5rem;
 /* Construction Image */
 .main-image{
     margin-top: 5rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
     width: 70vw;
 }
 /* Left side Big black image */
@@ -150,18 +156,17 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
 @media screen and (max-width:330px){
     .logo{
         width: 100%;
+        
     }
-    .article{
-       left: 2rem;
-   }
        .coming-soon{
         width: 80vw;
         margin-top: 4rem;
+        font-size: 2.4rem;
     }
     .note{
-        width: 13rem;
+        width: 81vw;
         margin-top: 2rem;
-
+        
     }
     .rect{
         width: 10rem;
@@ -185,8 +190,11 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     }
 }
 @media screen and (min-width:350px){
-    .article{
-        left: 2rem;
+    .coming-soon{
+        font-size: 3rem;
+    }
+    .note{
+        width: 90vw;
     }
     .big-black-left{
         width: 2rem;
@@ -255,11 +263,10 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 @media screen and (min-width:1025px){
     .logo{
-        margin-top: 0rem;
+        margin: auto;
     }
     .logo-image{
         margin-top: 1rem;
-        margin-left: 10rem;
     }
     /* Text and social media Icons */
     .text{
@@ -276,7 +283,6 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         justify-items: center;
         align-items: center;
         top: 20%;
-        left: 10%;
     }
     .coming-soon{
         font-size: 2rem;
@@ -288,12 +294,12 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         font-size: 1.3rem;
         line-height: 2rem;
         margin-top: 2rem;
-        width: 35vw;
+        width: 30vw;
     }
     #email{
         margin-top: 3rem;
-        width: 30vw;
-        height: 3rem;
+        width: 25vw;
+        height: 4rem;
     }
     .rect{
         width: 20vw;
