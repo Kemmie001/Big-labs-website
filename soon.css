@@ -251,7 +251,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         width: 5rem;
     }
 }
-@media screen and (min-width:1200px){
+@media screen and (min-width:1600px){
     .logo-image{
         margin-top: 4rem;
         margin-left: 10rem;
