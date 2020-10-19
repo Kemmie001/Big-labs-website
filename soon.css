@@ -193,6 +193,9 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     }
 }
 @media screen and (min-width:768px){
+    .logo{
+        top: 1rem;
+    }
     .logo-image{
         margin-top: 4rem;
         margin-left: 5rem;
@@ -209,7 +212,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     /* Coming soon article */
     .article{
         display: block;
-        top: 10rem;
+        top: 15rem;
         left: 7rem;
     }
     .coming-soon{
@@ -248,7 +251,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         width: 5rem;
     }
 }
-@media screen and (min-width:1440px){
+@media screen and (min-width:1200px){
     .logo-image{
         margin-top: 4rem;
         margin-left: 10rem;
@@ -268,7 +271,8 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         grid-template-columns: 1fr 1fr;
         justify-items: center;
         align-items: center;
-        top: 5rem;
+        top: 15rem;
+        left: 10rem;
     }
     .coming-soon{
         font-size: 4rem;
