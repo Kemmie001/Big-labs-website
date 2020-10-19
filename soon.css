@@ -11,7 +11,7 @@ img{
 }
 @font-face{
     font-family: futura;
-    src: url("FuturaMediumBT.ttf");
+    src: url("Gill\ Sans\ MT\ Medium.ttf");
 }
 
 /* Style for the background */
@@ -79,7 +79,6 @@ height: 2rem;
 /* Coming soon note */
 .note{
     width: 17rem;
-    text-align: left;
     margin-left: 1rem;
     height: 38px;
     margin-top: 2.5rem;
@@ -95,7 +94,7 @@ height: 2rem;
     padding-left: 2rem;
     margin-top: 3rem; 
     box-sizing: border-box;
-    border-radius:0.8rem ;
+    border-radius:0.5rem ;
     border: 1px solid #F7931E;
 }
 #email:focus{
@@ -112,9 +111,8 @@ height: 2rem;
 /* Notify me button */
 
 .rect{
-    width: 15rem;
+    width: 20rem;
     height: 56px;
-    margin-left: 1rem;
     margin-top: 2rem;
     border: none;
     background:#F7931E ;
@@ -135,22 +133,22 @@ height: 2rem;
 /* Left side Big black image */
 .big-black-left{
     position: absolute;
-    width: 2rem;
+    width: 34px;
     height: 55vh;
     left: 0px;
     top: 27rem;
-    background-image: url("bigblack.png");
+    background-image: url("BiGBlack 4.png");
     background-size: cover;
 }
 
 /*Right side Big black image  */
 .big-black-right{
 position: absolute;
-width: 2rem;
+width: 34px;
 height: 55vh;
 right: 0px;
 top: 27rem;
-background: url("bigblack.png");
+background: url("BiGBlack 4.png");
 background-size: cover;
 transform: matrix(-1, 0, 0, 1, 0, 0);
 }
@@ -169,7 +167,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         margin-top: 2rem;
     }
     .rect{
-        width: 10rem;
+        width: 15rem;
         
     }
     #email{
@@ -245,7 +243,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         height: 4rem;
     }
     .rect{
-        width: 50vw;
+        width: 60vw;
         height: 4rem;
         margin-top: 3rem;
     }
@@ -318,17 +316,16 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         height: 4rem;
     }
     .main-image{
-        justify-self: start;
         margin-right: 3rem;
         width: 35vw;
     }
     .big-black-left{
-        width: 10rem;
+        width: 4rem;
         top: 1%;
         height: 90vh;
     }
     .big-black-right{
-        width: 10rem;
+        width: 4rem;
         top: 1%;
         height: 90vh;
     }
