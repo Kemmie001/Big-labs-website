@@ -1,0 +1,309 @@
+:root {
+    /* colors */
+    --primary: #00000;
+    --secondary: #F7931E;
+    --tertiary: #EBEBEB;
+
+}
+/* Universal Properties */
+img{
+    width: 100%;
+}
+@font-face{
+    font-family: futura;
+    src: url("FuturaMediumBT.ttf");
+}
+
+/* Style for the background */
+body{
+    background: #ffffff;
+    font-family: futura;
+    box-sizing: border-box;
+}
+/* Company Logo */
+.logo{
+    position: absolute;
+    width: 98vw;
+    top: 2rem;
+    display: flex;
+}
+.logo-image{
+    width: 5rem;
+    margin-left: 2rem;
+}
+.text{
+    margin-left: auto;
+    margin-right: 1rem;
+}
+.stay{
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.2rem;
+    height: 1rem;
+    margin-top: 1rem;
+    font-family: futura;
+}
+.icons{
+    padding-top: 1.5rem;
+}
+.icons > a{
+color: var(--secondary);
+padding: 0.5rem;
+text-align: center;
+height: 2rem;
+background: #EBEBEB;
+border-radius: 5px;
+margin-left: 0.5rem;
+}
+
+.article{
+    position: absolute;
+    top: 6rem;
+}
+
+/* Coming Soon Banner */
+.coming-soon{
+    color: var(--secondary);
+    font-size: 2rem;
+    font-family: futura;
+    width: 18rem;
+    height: 50px;
+    margin-top: 3rem;
+    line-height:3rem;
+}
+
+/* Comming soon note */
+.note{
+    width: 17rem;
+    height: 38px;
+    margin-top: 2.5rem;
+    font-weight: normal;
+    line-height: 19.18px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+}
+/* Email input */
+#email{
+    width:18rem;
+    height: 56px;
+    margin-top: 3rem; 
+    box-sizing: border-box;
+    border-radius:0.8rem ;
+    border: 1px solid #F7931E;
+}
+#email::placeholder{
+    margin-top: 1rem;
+    padding-left: 2rem;
+    height: 39px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.4);
+}
+/* Notify me button */
+
+.rect{
+    width: 15rem;
+    height: 56px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    border: none;
+    background:#F7931E ;
+    color: #ffffff;
+    line-height: 19px;
+    font-size: 1em;
+    font-weight: normal;
+}
+.rect:hover{
+    cursor: pointer;
+}
+/* Construction Image */
+.main-image{
+    margin-top: 5rem;
+    margin-left: 1rem;
+    width: 70vw;
+}
+/* Left side Big black image */
+.big-black-left{
+    position: absolute;
+    width: 2rem;
+    height: 55vh;
+    left: 0px;
+    top: 27rem;
+    background-image: url("bigblack.png");
+    background-size: cover;
+}
+
+/*Right side Big black image  */
+.big-black-right{
+position: absolute;
+width: 2rem;
+height: 55vh;
+right: 0px;
+top: 27rem;
+background: url("bigblack.png");
+background-size: cover;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+@media screen and (max-width:330px){
+   .article{
+       left: 2rem;
+   }
+       .coming-soon{
+        width: 70vw;
+        margin-top: 4rem;
+    }
+    .note{
+        width: 13rem;
+        margin-top: 2rem;
+
+    }
+    .rect{
+        width: 10rem;
+        
+    }
+    #email{
+        width: 15rem;
+    }
+    .main-image{
+        width: 70vw;
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+    }
+    .big-black-left{
+        top: 20rem;
+        height: 450px;
+    }
+    .big-black-right{
+        top: 20rem;
+        height: 450px;
+    }
+}
+@media screen and (min-width:350px){
+    .article{
+        left: 2rem;
+    }
+    .big-black-left{
+        width: 2rem;
+    }
+    .big-black-right{
+        width: 2rem;
+    }
+}
+@media screen and (min-width:768px){
+    .logo-image{
+        margin-top: 4rem;
+        margin-left: 5rem;
+    }
+    /* Text and social media Icons */
+    .text{
+        display: flex;
+        margin-top: 3.2rem;
+        margin-right: 4rem;
+    }
+    .stay{
+        padding-top: 1rem;
+    }
+    /* Coming soon article */
+    .article{
+        display: block;
+        top: 10rem;
+        left: 7rem;
+    }
+    .coming-soon{
+        font-size: 4rem;
+        margin-top: 7rem;
+        width: 60vw;
+    }
+    .note{
+        font-size: 2rem;
+        line-height: 2.1rem;
+        width: 55vw; 
+        margin-top: 4rem;
+    }
+    #email{
+        margin-top: 5rem;
+        width: 60vw;
+        height: 4rem;
+    }
+    .rect{
+        width: 55vw;
+        height: 4rem;
+        margin-top: 3rem;
+    }
+    .main-image{
+        margin-top: 5rem;
+        width: 70vw;
+    }
+    .big-black-left{
+        top: 30rem;
+        width: 5rem;
+        height: 70vh;
+    }
+    .big-black-right{
+        top: 30rem;
+        height: 70vh;
+        width: 5rem;
+    }
+}
+@media screen and (min-width:1280px){
+    .logo-image{
+        margin-top: 4rem;
+        margin-left: 10rem;
+    }
+    /* Text and social media Icons */
+    .text{
+        display: flex;
+        margin-top: 3.2rem;
+        margin-right: 10rem;
+    }
+    .stay{
+        padding-top: 1rem;
+    }
+    /* Coming soon article */
+    .article{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        top: 20rem;
+    }
+    .coming-soon{
+        font-size: 4rem;
+        margin-top: 4rem;
+        height: 4rem;
+        width: 40vw;
+    }
+    .note{
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-top: 4rem;
+        width: 35vw;
+    }
+    #email{
+        margin-top: 5rem;
+        width: 30vw;
+        height: 5rem;
+    }
+    .rect{
+        width: 20vw;
+        height: 4rem;
+    }
+    .main-image{
+        margin-left: 1rem;
+        margin-top: 7rem;
+        width: 40vw;
+    }
+    .big-black-left{
+        width: 7rem;
+        top: 12rem;
+        height: 80vh;
+    }
+    .big-black-right{
+        width: 7rem;
+        top: 12rem;
+        height: 80vh;
+    }
+}
