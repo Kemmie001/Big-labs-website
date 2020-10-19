@@ -22,13 +22,13 @@ body{
 }
 /* Company Logo */
 .logo{
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: flex;
     align-items: center;
 }
 .logo-image{
     width: 5rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 .text{
     margin-left: auto;
@@ -61,47 +61,49 @@ height: 2rem;
 
 .article{
     position: absolute;
-    top: 6rem;
+    top: 10%;
+    text-align: center;
+}
 
-}
-.article-text{
-    margin: 0 auto;
-    margin-left: 1rem;
-}
 /* Coming Soon Banner */
 .coming-soon{
     color: var(--secondary);
     font-size: 3rem;
     font-family: futura;
     height: 50px;
-    margin-top: 3rem;
+    margin-top: 4rem;
     line-height:3rem;
+    text-align: center;
 }
 
 /* Coming soon note */
 .note{
     width: 17rem;
+    text-align: left;
+    margin-left: 1rem;
     height: 38px;
     margin-top: 2.5rem;
     font-weight: normal;
     line-height: 19.18px;
-    font-size: 16px;
+    font-size: 1em;
     color: rgba(0, 0, 0, 0.7);
 }
 /* Email input */
 #email{
-    width:18rem;
+    width:20rem;
     height: 56px;
+    padding-left: 2rem;
     margin-top: 3rem; 
     box-sizing: border-box;
     border-radius:0.8rem ;
     border: 1px solid #F7931E;
 }
+#email:focus{
+    outline: none;
+}
 #email::placeholder{
     margin-top: 1rem;
-    padding-left: 2rem;
     height: 39px;
-    width: 120px;
     font-size: 16px;
     font-weight: normal;
     line-height: 19px;
@@ -119,15 +121,15 @@ height: 2rem;
     color: #ffffff;
     line-height: 19px;
     font-size: 1em;
-    font-weight: normal;
+    font-weight: bold;
 }
 .rect:hover{
     cursor: pointer;
 }
 /* Construction Image */
 .main-image{
-    margin-top: 5rem;
-    margin-left: 2rem;
+    padding-top: 5rem;
+    margin:auto;
     width: 70vw;
 }
 /* Left side Big black image */
@@ -159,14 +161,12 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         
     }
        .coming-soon{
-        width: 80vw;
         margin-top: 4rem;
         font-size: 2.4rem;
     }
     .note{
         width: 81vw;
         margin-top: 2rem;
-        
     }
     .rect{
         width: 10rem;
@@ -176,8 +176,8 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         width: 15rem;
     }
     .main-image{
-        width: 70vw;
-        margin-top: 1rem;
+        width: 80vw;
+        margin-top: 0.5rem;
         margin-left: 1.5rem;
     }
     .big-black-left{
@@ -217,7 +217,10 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         margin-top: 3.2rem;
     }
     .stay{
-        padding-top: 1rem;
+        padding-top: 0.4rem;
+    }
+    .icons{
+        margin-top: 1rem;
     }
     /* Coming soon article */
     .article{
@@ -267,28 +270,37 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     }
     .logo-image{
         margin-top: 1rem;
+        margin-left: 10rem;
     }
     /* Text and social media Icons */
     .text{
         display: flex;
         margin-top: 1rem;
+        margin-right: 5rem;
     }
     .stay{
         padding-top: 1rem;
+        justify-self: start;
     }
     /* Coming soon article */
     .article{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-items: center;
-        align-items: center;
-        top: 20%;
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        margin-right: 7rem;
+        justify-items: end;
+        text-align: start;
+    }
+    .article-text{
+        margin-left: 3rem;
+        justify-self: center;
+        align-self: center;
     }
     .coming-soon{
-        font-size: 2rem;
+        font-size: 4rem;
         margin-top: 1rem;
         height: 4rem;
-        width: 40vw;
+        width: 50vw;
+        text-align: left;
     }
     .note{
         font-size: 1.3rem;
@@ -302,21 +314,21 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         height: 4rem;
     }
     .rect{
-        width: 20vw;
+        width: 18vw;
         height: 4rem;
     }
     .main-image{
-        margin-left: 1rem;
-        margin-top: 7rem;
+        justify-self: start;
+        margin-right: 3rem;
         width: 35vw;
     }
     .big-black-left{
-        width: 5rem;
+        width: 10rem;
         top: 1%;
         height: 90vh;
     }
     .big-black-right{
-        width: 5rem;
+        width: 10rem;
         top: 1%;
         height: 90vh;
     }
