@@ -255,6 +255,9 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     }
 }
 @media screen and (min-width:1000px){
+    .logo{
+        margin-top: 1rem;
+    }
     .logo-image{
         margin-top: 4rem;
         margin-left: 10rem;
@@ -263,7 +266,6 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     .text{
         display: flex;
         margin-top: 3.2rem;
-        margin-right: 10rem;
     }
     .stay{
         padding-top: 1rem;
@@ -274,7 +276,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         grid-template-columns: 1fr 1fr;
         justify-items: center;
         align-items: center;
-        top: 35%;
+        top: 20%;
         left: 10%;
     }
     .coming-soon{
@@ -285,7 +287,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     }
     .note{
         font-size: 2rem;
-        line-height: 2.5rem;
+        line-height: 2rem;
         margin-top: 4rem;
         width: 35vw;
     }
@@ -305,12 +307,12 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     }
     .big-black-left{
         width: 7rem;
-        top: 12rem;
+        top: 10%;
         height: 80vh;
     }
     .big-black-right{
         width: 7rem;
-        top: 12rem;
+        top: 10%;
         height: 80vh;
     }
 }
