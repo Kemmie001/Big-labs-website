@@ -22,14 +22,14 @@ body{
 }
 /* Company Logo */
 .logo{
-    position: absolute;
-    width: 98vw;
-    top: 2rem;
+    /* position: absolute; */
+    width: 90vw;
+    margin-top: 2rem;
     display: flex;
 }
 .logo-image{
     width: 5rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 .text{
     margin-left: auto;
@@ -66,7 +66,7 @@ margin-left: 0.5rem;
     color: var(--secondary);
     font-size: 2rem;
     font-family: futura;
-    width: 18rem;
+    width: 90vw;
     height: 50px;
     margin-top: 3rem;
     line-height:3rem;
@@ -148,11 +148,14 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 @media screen and (max-width:330px){
-   .article{
+    .logo{
+        width: 100%;
+    }
+    .article{
        left: 2rem;
    }
        .coming-soon{
-        width: 70vw;
+        width: 80vw;
         margin-top: 4rem;
     }
     .note{
@@ -251,7 +254,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         width: 5rem;
     }
 }
-@media screen and (min-width:1600px){
+@media screen and (min-width:1000px){
     .logo-image{
         margin-top: 4rem;
         margin-left: 10rem;
@@ -271,8 +274,8 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         grid-template-columns: 1fr 1fr;
         justify-items: center;
         align-items: center;
-        top: 15rem;
-        left: 10rem;
+        top: 35%;
+        left: 10%;
     }
     .coming-soon{
         font-size: 4rem;
