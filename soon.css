@@ -27,7 +27,7 @@ body{
     align-items: center;
 }
 .logo-image{
-    width: 5rem;
+    width: 8rem;
     margin-left: 1rem;
 }
 .text{
@@ -61,7 +61,7 @@ height: 2rem;
 
 .article{
     position: absolute;
-    top: 10%;
+    top: 15%;
     text-align: center;
 }
 
@@ -136,7 +136,7 @@ height: 2rem;
     width: 34px;
     height: 55vh;
     left: 0px;
-    top: 27rem;
+    top: 22rem;
     background-image: url("BiGBlack 4.png");
     background-size: cover;
 }
@@ -147,7 +147,7 @@ position: absolute;
 width: 34px;
 height: 55vh;
 right: 0px;
-top: 27rem;
+top: 22rem;
 background: url("BiGBlack 4.png");
 background-size: cover;
 transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -201,7 +201,10 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         width: 2rem;
     }
 }
-@media screen and (min-width:767px){
+@media screen and (min-width:1025px){
+    .article{
+        text-align: center;
+    }
     .logo{
         margin-top: 1rem;
     }
@@ -221,18 +224,14 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         margin-top: 1rem;
     }
     /* Coming soon article */
-    .article{
-        display: block;
-        top: 20%;
-        left: 7rem;
-    }
+    
     .coming-soon{
-        font-size: 3rem;
+        font-size: 4rem;
         margin-top: 5rem;
         width: 60vw;
     }
     .note{
-        font-size: 1.5rem;
+        font-size: 3rem;
         line-height: 2.1rem;
         width: 55vw; 
         margin-top: 2rem;
@@ -248,27 +247,28 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         margin-top: 3rem;
     }
     .main-image{
-        margin-top: 5rem;
+        margin-top: 5rem; 
         width: 70vw;
     }
     .big-black-left{
-        top: 50%;
+        top: 30%;
         width: 5rem;
         height: 70vh;
     }
     .big-black-right{
-        top: 50%;
+        top: 10%;
         height: 70vh;
-        width: 5rem;
+        width: 7rem;
     }
 }
 @media screen and (min-width:1025px){
     .logo{
-        margin: auto;
+        margin:2rem auto;
     }
     .logo-image{
         margin-top: 1rem;
-        margin-left: 10rem;
+        width: 10rem;
+        margin-left: 7rem;
     }
     /* Text and social media Icons */
     .text{
@@ -284,20 +284,22 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     .article{
         display:grid;
         grid-template-columns:1fr 1fr;
-        margin-right: 7rem;
+        top: 15%;
+        margin: 3rem;
         justify-items: end;
         text-align: start;
     }
     .article-text{
-        margin-left: 3rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
         justify-self: center;
         align-self: center;
     }
     .coming-soon{
         font-size: 4rem;
-        margin-top: 1rem;
+        margin-top: 2rem;
         height: 4rem;
-        width: 50vw;
+        width: 40vw;
         text-align: left;
     }
     .note{
@@ -308,16 +310,16 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     }
     #email{
         margin-top: 3rem;
-        width: 25vw;
+        width: 20vw;
         height: 4rem;
     }
     .rect{
-        width: 18vw;
+        width: 20vw;
         height: 4rem;
     }
     .main-image{
         margin-right: 3rem;
-        width: 35vw;
+        width: 45vw;
     }
     .big-black-left{
         width: 4rem;
@@ -327,6 +329,6 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     .big-black-right{
         width: 4rem;
         top: 1%;
-        height: 90vh;
+        height: 100vh;
     }
 }
