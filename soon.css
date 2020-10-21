@@ -291,7 +291,6 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         text-align: start;
     }
     .article-text{
-        margin-top: 2rem;
         margin-left: 1rem;
         justify-self: center;
         align-self: center;
@@ -324,13 +323,14 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     }
     .big-black-left{
         width: 5rem;
-        top: 20%;
+        top: 30%;
         height: 70vh;
+        background-image: url(back.png);
     }
     .big-black-right{
         width: 5rem;
-        top: 20%;
+        top: 30%;
         height: 70vh;
+        background-image: url(back.png);
     }
-    
 }
