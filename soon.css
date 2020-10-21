@@ -287,7 +287,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     .article{
         display:grid;
         grid-template-columns:1fr 1fr;
-        top: 25%;
+        top: 20%;
         margin: 3.5rem;
         justify-items: end;
         text-align: start;
@@ -327,14 +327,12 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     .big-black-left{
         width: 5rem;
         top: 20%;
-        background-image: url("BIGBLACK 1.png");
         height: 70vh;
     }
     .big-black-right{
         width: 5rem;
         top: 20%;
         height: 70vh;
-        background-image: url("BIGBLACK 1.png");
     }
     
 }
