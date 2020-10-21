@@ -333,6 +333,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         width: 5rem;
         top: 20%;
         height: 70vh;
+        background-image: url("BiGBlack\ 1.png")
     }
     
 }
