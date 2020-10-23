@@ -62,6 +62,8 @@ height: 2rem;
 .article{
     position: absolute;
     top: 15%;
+}
+.article-text{
     text-align: center;
 }
 
@@ -73,15 +75,14 @@ height: 2rem;
     height: 50px;
     margin-top: 4rem;
     line-height:3rem;
-    text-align: center;
 }
 
 /* Coming soon note */
 .note{
-    width: 17rem;
+    width: 18rem;
     margin-left: 1rem;
     height: 38px;
-    margin-top: 2.5rem;
+    margin-top: 1rem;
     font-weight: normal;
     line-height: 19.18px;
     font-size: 1em;
@@ -93,7 +94,7 @@ height: 2rem;
     height: 56px;
     padding-left: 1rem;
     padding-right: 1rem;
-    margin-top: 3rem; 
+    margin-top: 1rem; 
     box-sizing: border-box;
     border-radius:0.5rem ;
     border: 1px solid #F7931E;
@@ -112,7 +113,7 @@ height: 2rem;
 /* Notify me button */
 
 .rect{
-    width: 20rem;
+    width: 15rem;
     height: 56px;
     margin-top: 2rem;
     border: none;
@@ -128,7 +129,7 @@ height: 2rem;
 /* Construction Image */
 .main-image{
     padding-top: 5rem;
-    margin:auto;
+    margin:0 auto;
     width: 70vw;
 }
 /* Left side Big black image */
@@ -158,6 +159,9 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     .logo{
         width: 100%;
         
+    }
+    .logo-image{
+        width: 5rem;
     }
        .coming-soon{
         margin-top: 4rem;
@@ -205,7 +209,6 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
 @media screen and (min-width:1024px){
     .article{
         top: 5%;
-        text-align: center;
     }
     .logo{
         margin-top: 1rem;
@@ -275,7 +278,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     .text{
         display: flex;
         margin-top: 1rem;
-        margin-right: 5rem;
+        margin-right: 8rem;
     }
     .stay{
         padding-top: 1rem;
@@ -286,51 +289,76 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
         display:grid;
         grid-template-columns:1fr 1fr;
         top: 20%;
-        margin: 3.5rem;
-        justify-items: end;
-        text-align: start;
+        margin: 7rem;
+        justify-items: center;
+    
     }
     .article-text{
-        margin-left: 1rem;
-        justify-self: center;
+        margin-top: 3rem;
+        justify-self: start;
         align-self: center;
     }
     .coming-soon{
-        font-size: 4rem;
+        font-size: 3rem;
         margin-top: 2rem;
-        height: 4rem;
-        width: 40vw;
-        text-align: left;
+        height: 2rem;
+        width: 30vw;
     }
     .note{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         line-height: 2rem;
-        margin-top: 2rem;
+        margin-top: 3rem;
         width: 30vw;
     }
     #email{
         margin-top: 3rem;
         width: 20vw;
-        height: 4rem;
+        height: 3rem;
+        
     }
     .rect{
-        width: 20vw;
-        height: 4rem;
+        margin-top: 2rem;
+        width: 15vw;
+        height: 3rem;
     }
     .main-image{
-        margin-right: 3rem;
         width: 45vw;
     }
     .big-black-left{
-        width: 5rem;
-        top: 30%;
-        height: 70vh;
+        top: -10%;
+        width: 6rem;
+        height: 90vh;
+    }
+    .big-black-right{
+        top: -10%;
+        width: 6rem;
+        height: 90vh;
+    }
+}
+@media screen and (min-width:1280px){
+    .logo-image{
+        margin-left: 8rem;
+    }
+    .article{
+        top: 3%;
+    }
+    .coming-soon{
+        width: 30vw;
+        font-size: 4rem;
+    }
+    .note{
+        font-size: 1.5rem;
+        width: 30vw;
+        margin-top: 1rem;
+    }
+    .big-black-left{
+        top: 15%;
+        height: 80vh;
         background-image: url(back.png);
     }
     .big-black-right{
-        width: 5rem;
-        top: 30%;
-        height: 70vh;
+        top: 15%;
+        height: 80vh;
         background-image: url(back.png);
     }
 }
