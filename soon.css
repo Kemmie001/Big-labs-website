@@ -342,23 +342,34 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     .article{
         top: 3%;
     }
+    .article-text{
+        text-align: left;
+    }
     .coming-soon{
         width: 30vw;
         font-size: 4rem;
     }
     .note{
-        font-size: 1.5rem;
+        font-size: 1rem;
         width: 30vw;
         margin-top: 1rem;
     }
     .big-black-left{
-        top: 15%;
+        top: 10%;
         height: 80vh;
         background-image: url(back.png);
     }
     .big-black-right{
-        top: 15%;
+        top: 10%;
         height: 80vh;
         background-image: url(back.png);
+    }
+}
+@media screen and (min-width:1300px){
+    .big-black-left{
+        height: 100vh;
+    }
+    .big-black-right{
+        height: 100vh;
     }
 }
