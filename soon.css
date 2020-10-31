@@ -340,7 +340,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     }
     .article-text{
         margin-top: 3rem;
-        justify-self: start;
+        justify-self: center;
         align-self: center;
         text-align: left;
     }
@@ -386,7 +386,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 @media screen and (min-width:1200px){
     .logo-image{
-        margin-left: 8rem;
+        margin-left: 9rem;
     }
     .article{
         top: 3%;
