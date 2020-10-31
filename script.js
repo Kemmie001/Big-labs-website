@@ -20,13 +20,14 @@ let email = document.getElementById('email');
 const database = firestore.collection("BinaryData")
 
 submitBtn.addEventListener("click", function(e){
-
+    
     let userEmail = email.value;
 
     // To acess the database collection
     database.doc().set({
         Email: userEmail
-    })
-  
-    document.getElementById("contactform").reset()
+    }).then(function(){
+            window.location.href="thankyou.html";
+        })
+        document.getElementById("contactform").reset()  
 })
